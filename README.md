@@ -2,6 +2,15 @@
 
 This repository contains a Jupyter notebook `react-agent.ipynb` that implements a REACT-style agent for medical question answering using a combination of local datasets, a vector store, simple tools, web search, and an LLM.
 
+Read the full article on Medium here: [Build ReAct Agent from Scratch using LangGraph](https://medium.com/@alphaiterations/agentic-ai-build-react-agent-using-langgraph-facac8ae6031)
+
+
+
+
+
+
+
+
 What the notebook does
 - Loads two CSV datasets: `medical_q_n_a.csv` (medical Q&A) and `Hospitals.csv` (US hospitals).
 - Prepares the medical Q&A text for embedding and stores it in a Chromadb collection.
